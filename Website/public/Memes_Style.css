@@ -1,0 +1,50 @@
+body{
+  background-color: #6b5b95;
+}
+.Title h1 {
+  border-style: solid;
+  font-size: 250%;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.bigbang{
+    padding-bottom: 10px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+.bigbang h2{
+  font-family: monospace;
+  text-align: center;
+}
+.turnleft{
+  font-family: monospace;
+  padding-top: 530px;
+  padding-bottom: 10px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+h2 .turnleft{
+  text-align: center;
+  font-family: monospace
+}
+.road{
+  padding-top: 1120px;
+  padding-bottom: 10px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.yobamma{
+  font-family: monospace;
+  padding-top: 1550px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
