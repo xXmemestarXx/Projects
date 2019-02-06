@@ -3,11 +3,10 @@ const express = require('express');
 const app = express();
 const port = 3000
 
-app.use(express.static(__dirname + '/public'));
-app.use(express.static(__dirname + '/public'));
-app.use(express.static(__dirname + '/public'));
+//Specifing folder for css and stuff
 app.use(express.static(__dirname + '/public'));
 
+//Rerouting
 app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/views/index.html')));
 
 app.get('/about', (req, res) => res.sendFile(path.join(__dirname + '/views/about.html')));
