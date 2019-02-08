@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="/app.js" charset="utf-8"></script>
+    <script type="text/javascript" src="app.js" charset="utf-8"></script>
     <link rel="stylesheet" type='text/css' href="Main.css">
+    <script type="text/javascript" src="main.js"></script>
       <title>Website</title>
   </head>
   <body>
@@ -16,5 +17,13 @@
       <div class="memes_button">
         <button name="Memes" type='button' value='Memes' class="button" onclick="document.location.href='./memes';">Memes</button>
       </div>
-      </body>
+       <div class="opinion_all">
+        <p>What do you think of this Website</p>
+        <p>It needs to be over 20 charecter's</p>
+        <textarea placeholder="You're opinion here" name="opinion" id="opinion" cols="60" rows="10"></textarea>
+      <div class="opinion_submit">
+        <button onclick="opinion()" class="submit" type="submit">Submit</button>
+      </div>
+      </div>
+  </body>
 </html>
