@@ -83,3 +83,17 @@ body{
 .yobamma img{
   border: 2px groove black;
 }
+.opinion_all {
+  text-align: center;
+  margin: 100px;
+}
+
+.opinion_all textarea {
+  text-align: left
+}
+
+.opinion_all p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+

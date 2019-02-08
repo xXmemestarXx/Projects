@@ -15,4 +15,4 @@ app.get('/memes', (req, res) => res.sendFile(path.join(__dirname + '/views/memes
 
 app.get('/about', (req, res) => res.sendFile(path.join(__dirname + '/views/about.html')));
 
-app.listen(port, () => console.log(`Listening on 127.0.0.1 with port ${port}!`)));
+app.listen(port, () => console.log(`Listening on 127.0.0.1 with port ${port}!`));

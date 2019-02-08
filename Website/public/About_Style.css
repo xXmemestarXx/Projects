@@ -41,4 +41,18 @@ h1{
 body{
   background-color: rgb(105, 121, 129);
 }
+.opinion_all {
+  text-align: center;
+  margin: 100px;
+}
+
+.opinion_all textarea {
+  text-align: left
+}
+
+.opinion_all p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
 
