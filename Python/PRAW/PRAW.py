@@ -1,9 +1,10 @@
 import praw
 
-reddit = praw.Reddit(client_id='XPrEVzJfVZ8wuA',
-                     client_secret='GOFTH2hyfxa5qOhLHM-QuatS3Q0',
-                     username='math548r',
-                     password='adv39ctq',
+#Create app on reddit to achieve the following information client_id & client_secret
+reddit = praw.Reddit(client_id='[client_id]',
+                     client_secret='[client_secret]',
+                     username='[username]',
+                     password='[password]',
                      user_agent='my user agent')
 
 submission = reddit.submission(id='a7zss0')
